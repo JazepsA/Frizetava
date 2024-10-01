@@ -3,7 +3,7 @@ import datetime
 from datetime import time
 
 class Pakalpojums:
-    
+
     Pakalpojuma_kategorija =""
     Pakalpojuma_nosaukums =""
     Pakalpojuma_atlaide =""
@@ -18,14 +18,14 @@ class Pakalpojums:
         self.pakalpojumaAtlaide=pak_atl
         self.pakalpojumaCenaStunda=pak_cena
         self.laiksPieejams=True
-    
+    '''
     def __repr__(self):
         if self.pakalpojumaKategorija: return self.pak_kat
         elif self.pakalpojumaNosaukums: return self.pak_nos
         elif self.pakalpojumaAtlaide: return self.pak_atl
         elif self.pakalpojumaCenaStunda: return self.pak_cena
         return''
-    
+    '''
     def Pakalpojuma_info(self):
         return [
             self.pakalpojumaKategorija,self.pakalpojumaNosaukums,
